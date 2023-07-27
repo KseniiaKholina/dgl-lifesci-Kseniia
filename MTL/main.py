@@ -86,3 +86,5 @@ if __name__ == '__main__':
         frac_test=0.1, random_state=0)
 
     main(args, atom_featurizer, edge_featurizer, train_set, val_set, test_set)
+
+    #use this to run: python main.py -c /Users/kseniiakholina/Desktop/dgl-lifesci-Kseniia/MTL/syn_data.csv -m GCN --mode bypass -p Desktop/dgl-lifesci-Kseniia/MTL -s smiles -t logP,logD
